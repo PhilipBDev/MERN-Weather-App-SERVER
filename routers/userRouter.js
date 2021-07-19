@@ -153,7 +153,7 @@ router.get('/logOut', (req, res) => {
         httpOnly: true,
         sameSite:
           process.env.NODE_ENV === 'development'
-            ? 'lax'
+            ? 'lax' // Not allow different origins
             : process.env.NODE_ENV === 'production' && 'none',
         secure:
           process.env.NODE_ENV === 'development'
