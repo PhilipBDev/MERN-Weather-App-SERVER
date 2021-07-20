@@ -15,6 +15,7 @@ app.use(
     origin: [
       'http://localhost:3000',
       'https://city-weather-today.herokuapp.com/',
+      'https://city-weather-app-1.netlify.app/',
     ],
     credentials: true,
   })
