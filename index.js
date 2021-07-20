@@ -12,10 +12,7 @@ const app = express();
 app.use(express.json());
 app.use(
   cors({
-    origin: [
-      'http://localhost:3000',
-      'https://city-weather-app-1.netlify.app/',
-    ],
+    origin: ['http://localhost:3000', 'https://city-weather-app-1.netlify.app'],
     credentials: true,
   })
 );
