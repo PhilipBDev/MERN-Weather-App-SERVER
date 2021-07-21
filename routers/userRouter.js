@@ -62,7 +62,7 @@ router.post('/', async (req, res) => {
         sameSite:
           process.env.NODE_ENV === 'development'
             ? 'lax'
-            : process.env.NODE_ENV === 'production' && true,
+            : process.env.NODE_ENV === 'production' && 'none',
         secure:
           process.env.NODE_ENV === 'development'
             ? false
