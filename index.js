@@ -15,7 +15,7 @@ app.use(
     origin: [
       'http://localhost:3000',
       'https://city-weather-today.herokuapp.com',
-      'https://myweather.city',
+      'http://myweather.city',
     ],
     credentials: true,
   })
