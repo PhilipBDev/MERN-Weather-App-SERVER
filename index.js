@@ -20,11 +20,7 @@ app.use(function (req, res, next) {
 app.use(express.json());
 app.use(
   cors({
-    origin: [
-      'http://localhost:3000',
-      'https://city-weather-today.herokuapp.com',
-      'https://myweather.city',
-    ],
+    origin: ['http://localhost:3000', 'https://myweather.city'],
     credentials: true,
   })
 );
