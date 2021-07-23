@@ -14,7 +14,7 @@ const app = express();
 app.use(express.json());
 app.use(
   cors({
-    origin: ['http://localhost:3000', 'https://myweather.city'],
+    origin: ['http://localhost:3000', 'https://www.myweather.city'],
     credentials: true,
     allowedHeaders: ['Content-Type', 'Authorization'],
     maxAge: 600,
