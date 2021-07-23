@@ -11,17 +11,13 @@ dotenv.config();
 
 const app = express();
 
-app.use(function (req, res, next) {
-  res.header('Access-Control-Allow-Origin', 'https://myweather.city');
-  res.header('Access-Control-Allow-Credentials', true);
-  next();
-});
-
 app.use(express.json());
 app.use(
   cors({
     origin: ['http://localhost:3000', 'https://myweather.city'],
     credentials: true,
+    allowedHeaders: ['Content-Type', 'Authorization'],
+    maxAge: 600,
   })
 );
 app.use(cookieParser());
