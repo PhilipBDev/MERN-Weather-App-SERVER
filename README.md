@@ -12,6 +12,12 @@
     <a href="https://github.com/PhilipBDev/MERN-Weather-App-SERVER/issues">Request Feature</a>
     </p>
 
+<p align="center">
+  <a href="https://www.myweather.city">
+    <img src="images/preview.png">
+  </a>
+</p>
+
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
@@ -39,7 +45,7 @@
 
 ## About The Project
 
-A simple weather application using the MERN stack and OpenWeatherMap API.
+A simple weather application using the MERN stack and OpenWeatherMap API. Makes use of React Context, Fetch, Axios, and JWT to create a functional user registration and log in system that will immediately display the weather for your city upon logging in.
 
 ### Built With
 
