@@ -69,10 +69,14 @@ To get a local copy up and running follow these simple steps.
    git clone https://github.com/PhilipBDev/MERN-Weather-App-SERVER.git
    ```
 3. Install NPM packages
-
-```sh
-npm install
-```
+   ```sh
+   npm install
+   ```
+4. Create an ENV file with the following attributes with your own MongoDB connection string and JWT Secret Key:
+   ```sh
+   MDB_CONNECT_STRING=
+   JWT_SECRET=
+   ```
 
 <!-- ROADMAP -->
 
