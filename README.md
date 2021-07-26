@@ -72,7 +72,7 @@ To get a local copy up and running follow these simple steps.
    ```sh
    npm install
    ```
-4. Create an ENV file with the following attributes with your own MongoDB connection string and JWT Secret Key:
+4. Create an ENV file with the following attributes using your own MongoDB connection string and JWT Secret Key:
    ```sh
    MDB_CONNECT_STRING=
    JWT_SECRET=
