@@ -51,6 +51,10 @@ Due to the server running on a free tier of Heroku, please allow roughly 60 seco
 
 A simple weather application using the MERN stack and OpenWeatherMap API. Makes use of React Context, Fetch, Axios, and JWT to create a functional user registration and log in system that will immediately display the weather for your city upon logging in.
 
+Learning my way around React and React Hooks was the most challenging part of this project. The file structure is a bit messy since I kept implementing new concepts I've learned. I couldn't decide between using a custom React hook for fetch or to use Axios, so I used both for different reasons, though in the future Axios seems to be the way to go for the time being.
+
+Another issue was having the user's city show up after logging in, through I solved this with React Context and a simple page refresh. Although simple, countless hours were spent trying to understand what React has to offer.
+
 ### Built With
 
 - [React](https://reactjs.org/)
