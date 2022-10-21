@@ -9,7 +9,7 @@ Due to the server running on a free tier of Heroku, please allow roughly 60 seco
 
   <p align="center">
     <br />
-    <a href="https://www.myweather.city">View Demo</a>
+    <a href="https://city-weather-app-1.netlify.app/">View Demo</a>
     ·
     <a href="https://github.com/PhilipBDev/MERN-Weather-App-SERVER/issues">Report Bug</a>
     ·
@@ -17,7 +17,7 @@ Due to the server running on a free tier of Heroku, please allow roughly 60 seco
     </p>
 
 <p align="center">
-  <a href="https://www.myweather.city">
+  <a href="https://city-weather-app-1.netlify.app/">
     <img src="images/preview.png">
   </a>
 </p>
